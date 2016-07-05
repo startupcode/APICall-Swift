@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60578951CFEB9D200B49744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60578941CFEB9D200B49744 /* AppDelegate.swift */; };
+		B605789C1CFEB9D200B49744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B605789A1CFEB9D200B49744 /* Main.storyboard */; };
+		B605789E1CFEB9D200B49744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B605789D1CFEB9D200B49744 /* Assets.xcassets */; };
+		B60578A11CFEB9D200B49744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B605789F1CFEB9D200B49744 /* LaunchScreen.storyboard */; };
+		B60578AA1CFEBBE200B49744 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60578A91CFEBBE200B49744 /* Config.swift */; };
+		B61B17461D00036300DDE361 /* BLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B17451D00036300DDE361 /* BLibrary.swift */; };
+		B66A65F01D018E8D00FB2812 /* vcLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A65EF1D018E8C00FB2812 /* vcLogin.swift */; };
+		B66A65F31D01955200FB2812 /* loginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A65F21D01955200FB2812 /* loginController.swift */; };
+		B66A65F61D019A5200FB2812 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A65F51D019A5200FB2812 /* UserInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B60578911CFEB9D100B49744 /* APICall-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APICall-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60578941CFEB9D200B49744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B605789B1CFEB9D200B49744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B605789D1CFEB9D200B49744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B60578A01CFEB9D200B49744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B60578A21CFEB9D200B49744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60578A91CFEBBE200B49744 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		B61B17451D00036300DDE361 /* BLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLibrary.swift; sourceTree = "<group>"; };
+		B66A65EF1D018E8C00FB2812 /* vcLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcLogin.swift; sourceTree = "<group>"; };
+		B66A65F21D01955200FB2812 /* loginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginController.swift; sourceTree = "<group>"; };
+		B66A65F51D019A5200FB2812 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B605788E1CFEB9D100B49744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60578881CFEB9D100B49744 = {
+			isa = PBXGroup;
+			children = (
+				B60578931CFEB9D200B49744 /* APICall */,
+				B60578921CFEB9D100B49744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60578921CFEB9D100B49744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60578911CFEB9D100B49744 /* APICall-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60578931CFEB9D200B49744 /* APICall */ = {
+			isa = PBXGroup;
+			children = (
+				B66302E11D2393580060699E /* Res */,
+				B67E3B091D128EF20065D62D /* CustomLib */,
+				B66A65F11D01933100FB2812 /* ViewController */,
+				B60578941CFEB9D200B49744 /* AppDelegate.swift */,
+				B60578A21CFEB9D200B49744 /* Info.plist */,
+			);
+			name = APICall;
+			path = "APICall-Swift";
+			sourceTree = "<group>";
+		};
+		B60578A81CFEBBAC00B49744 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B60578A91CFEBBE200B49744 /* Config.swift */,
+				B61B17451D00036300DDE361 /* BLibrary.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		B66302E11D2393580060699E /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				B605789A1CFEB9D200B49744 /* Main.storyboard */,
+				B605789F1CFEB9D200B49744 /* LaunchScreen.storyboard */,
+				B605789D1CFEB9D200B49744 /* Assets.xcassets */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
+		B66A65F11D01933100FB2812 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B66A65F41D01955E00FB2812 /* Login */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B66A65F41D01955E00FB2812 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B66A65EF1D018E8C00FB2812 /* vcLogin.swift */,
+				B66A65F21D01955200FB2812 /* loginController.swift */,
+				B66A65F51D019A5200FB2812 /* UserInfo.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B67E3B091D128EF20065D62D /* CustomLib */ = {
+			isa = PBXGroup;
+			children = (
+				B60578A81CFEBBAC00B49744 /* Library */,
+			);
+			name = CustomLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60578901CFEB9D100B49744 /* APICall-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60578A51CFEB9D200B49744 /* Build configuration list for PBXNativeTarget "APICall-Swift" */;
+			buildPhases = (
+				B605788D1CFEB9D100B49744 /* Sources */,
+				B605788E1CFEB9D100B49744 /* Frameworks */,
+				B605788F1CFEB9D100B49744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APICall-Swift";
+			productName = propheticpath;
+			productReference = B60578911CFEB9D100B49744 /* APICall-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60578891CFEB9D100B49744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "BLive Web Solutions Pvt. Ltd.";
+				TargetAttributes = {
+					B60578901CFEB9D100B49744 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B605788C1CFEB9D100B49744 /* Build configuration list for PBXProject "APICall-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B60578881CFEB9D100B49744;
+			productRefGroup = B60578921CFEB9D100B49744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60578901CFEB9D100B49744 /* APICall-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B605788F1CFEB9D100B49744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60578A11CFEB9D200B49744 /* LaunchScreen.storyboard in Resources */,
+				B605789E1CFEB9D200B49744 /* Assets.xcassets in Resources */,
+				B605789C1CFEB9D200B49744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B605788D1CFEB9D100B49744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61B17461D00036300DDE361 /* BLibrary.swift in Sources */,
+				B66A65F31D01955200FB2812 /* loginController.swift in Sources */,
+				B60578AA1CFEBBE200B49744 /* Config.swift in Sources */,
+				B66A65F01D018E8D00FB2812 /* vcLogin.swift in Sources */,
+				B60578951CFEB9D200B49744 /* AppDelegate.swift in Sources */,
+				B66A65F61D019A5200FB2812 /* UserInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B605789A1CFEB9D200B49744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B605789B1CFEB9D200B49744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B605789F1CFEB9D200B49744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60578A01CFEB9D200B49744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60578A31CFEB9D200B49744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "11f32dd2-82d5-4211-996e-760a85c638aa";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B60578A41CFEB9D200B49744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "11f32dd2-82d5-4211-996e-760a85c638aa";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60578A61CFEB9D200B49744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "APICall-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rk.push;
+				PRODUCT_NAME = "APICall-Swift";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B60578A71CFEB9D200B49744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "APICall-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rk.push;
+				PRODUCT_NAME = "APICall-Swift";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B605788C1CFEB9D100B49744 /* Build configuration list for PBXProject "APICall-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60578A31CFEB9D200B49744 /* Debug */,
+				B60578A41CFEB9D200B49744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60578A51CFEB9D200B49744 /* Build configuration list for PBXNativeTarget "APICall-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60578A61CFEB9D200B49744 /* Debug */,
+				B60578A71CFEB9D200B49744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60578891CFEB9D100B49744 /* Project object */;
+}
