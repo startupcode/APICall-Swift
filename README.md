@@ -1,17 +1,22 @@
 # APICall-Swift
 Class with methods to call API and parse JSON response with simple function calls
 
+
 Check example in the given code.
 
+
 Calling API
+
 //Assign POST parameters
 let postString = String(format: PARAM, param1, param2)
+
 
 //Create request
 let request = objBLib.getPostRequestUrl(URL, postParam:postString)
 
 //Process API call, parse JSON node details and subnode fname
 let returnedJsonData: NSDictionary = objBLib.processAPICalls(request)
+
 
 
 
